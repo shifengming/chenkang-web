@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+.end {
+    background: url("https://www.ck-cm.com/img/index/end.jpg");
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+.e_box {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.end_txt1 {
+    font-size:2rem;
+    color: #ffffff;
+}
+
+.end_left {
+    font-size: 15px;
+    width: 40%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.end_txt2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.end_txt3 {
+    padding-left: 10px;
+    color: rgb(0, 150, 251);
+    font-size: 20px;
+}
+
+.end_txt4 {
+    color: #c3c3c3;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.end_text1 {
+    margin-top: 10px;
+}
+
+.end_right {
+    width: 50%;
+    color: #ffffff;
+    float: right;
+}
+
+.end_name {
+    height: 80px;
+}
+
+.end_name .input {
+    height: 40px;
+    width: 80%;
+    background: transparent;
+}
+
+.txt {
+    color: #c3c3c3;
+    font-size: 13px;
+}
+
+.e_input {
+    width: 80%;
+    height: 30px;
+    background: transparent;
+    margin-top: 6px;
+}
+
+.e_btn {
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    background-color: #f1665c;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input {
+    color: #fff;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+}
+.foot {
+    background-color: rgb(37, 43, 58);
+    height: 65px;
+    width: 100%;
+    font-weight: lighter;
+    /*flex-direction: row;*/
+    display: flex;
+    justify-content: center;
+}
+
+.f_middle {
+    width: 100%;
+    height: 65px;
+    color: #f2f2f2;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt1 {
+    line-height: 30px;
+}
+.txt2{
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: 13px;
+    width: 13px;
+}
+
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+/*.foot a:hover {*/
+    /*color: #0033FF;*/
+    /*text-decoration: underline;*/
+/*}*/
